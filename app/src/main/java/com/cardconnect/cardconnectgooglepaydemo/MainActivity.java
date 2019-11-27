@@ -56,16 +56,9 @@ public class MainActivity extends Activity {
         switch(view.getId()) {
             case R.id.radio_button_qa:
                 if (checked)
-                    mSite = CardConnectGatewayAPIHelper.SiteName.QA;
+                    mSite = CardConnectGatewayAPIHelper.SiteName.{sitename};
                     break;
-            case R.id.radio_button_fts:
-                if (checked)
-                    mSite = CardConnectGatewayAPIHelper.SiteName.FTS;
-                    break;
-            case R.id.radio_button_emvtest:
-                if (checked)
-                    mSite = CardConnectGatewayAPIHelper.SiteName.EMVTEST;
-                    break;
+
              default:
                  break;
         }
