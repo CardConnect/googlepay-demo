@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CardConnectGooglePayDemo</string>
+    <string name="string_pay_now">Pay Now!</string>
+    <string name="textview_cs_token">CardSecure Token</string>
+    <string name="edittext_cs_token_hint">CardSecure Return Value</string>
+    <string name="radion_button_qa">qa</string>
+    <string name="radio_button_fts">fts</string>
+    <string name="textView_radioButtonLabel">Site Name</string>
+    <string name="radio_button_emvtest">emvtest</string>
+</resources>
