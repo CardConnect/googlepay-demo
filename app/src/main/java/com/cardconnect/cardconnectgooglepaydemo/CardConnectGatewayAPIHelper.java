@@ -22,11 +22,9 @@ public class CardConnectGatewayAPIHelper {
     private static final String ACTION = "CR";
     private static final String REQUEST = "action=" + ACTION + "&data=";
 
-    enum SiteName {QA, FTS, EMVTEST}
+    enum SiteName {sitename}
     public static String buildSiteURL(SiteName site) {
-        if(site == SiteName.QA) return  "https://qa.cardconnect.com:443/cardsecure/cs?";
-        if(site == SiteName.FTS) return "https://fts.cardconnect.com:443/cardsecure/cs?";
-        if(site == SiteName.EMVTEST) return "https://emvtest.cardconnect.com:443/cardsecure/cs?";
+        if(site == SiteName.QA) return  "https://{sitename}.cardconnect.com:443/cardsecure/cs?";
 
         return null;
     }
